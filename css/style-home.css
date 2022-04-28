@@ -1,0 +1,93 @@
+/* HOME */
+.app-container-home {
+  min-height: calc(100vh - 127px);
+}
+
+.home {
+  /* background-color: #0c2d5c; */
+  background-image: url("./../static/mapa.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 690px;
+}
+
+.home-container {
+  padding-top: 100px;
+  width: 980px;
+  height: 500px;
+  margin: auto;
+}
+
+.home-search {
+  float: left;
+  width: 45%;
+}
+
+.home-video-right {
+  float: right;
+  width: 51%;
+}
+
+.home-video iframe {
+  width: 450px;
+  height: 310px;
+}
+
+.home-greeting {
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.home-left-divider {
+  width: 46%;
+  height: 1px;
+  float: left;
+  background-color: #979797;
+  margin-top: 30px;
+}
+
+.home-right-divider {
+  width: 46%;
+  height: 1px;
+  float: right;
+  background-color: #979797;
+  margin-top: 30px;
+}
+
+.home-or {
+  float: left;
+  margin-top: 20px;
+  margin-left: 8px;
+  color: white;
+}
+
+.home-dropdown {
+  margin-top: 40px;
+}
+
+.home-button {
+  margin-top: 25px;
+  width: 100%;
+  color: white;
+  background: #bf930d;
+  background-image: -webkit-linear-gradient(top, #bf930d, #ecf320);
+  background-image: -moz-linear-gradient(top, #bf930d, #ecf320);
+  background-image: -ms-linear-gradient(top, #bf930d, #ecf320);
+  background-image: -o-linear-gradient(top, #bf930d, #ecf320);
+  background-image: -webkit-gradient(to bottom, #bf930d, #ecf320);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #ffae00;
+  border: solid #fffb00 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}

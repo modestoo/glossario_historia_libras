@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Glossário de História em Libras</title>
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous">
+	</script>
+	<script> 
+		$(function(){
+		$("#header").load("../menu/header.html"); 
+		$("#footer").load("../menu/footer.html"); 
+		$("#buscador").load("../menu/buscador.html"); 
+		});
+	</script> 
+
+  </head>
+  <body>
+
+	<div id="root">
+		<div class="app-container">
+
+			<!-- Cabeçalho -->
+			<div id="header"></div>
+
+			<!-- Busca de sinais -->
+			<div class="searchbar-container">
+				<div class="searchbar-search">
+					<div id="buscador"></div>
+				</div>
+			</div>
+
+			<!-- Conteúdo -->
+			<div class="content">
+				<div class="row">
+
+					<!-- Conteúdo central -->
+					<div class="col-md-7">
+						<div class="content-center">
+							<h1 class="content-title">Fernando Henrique Cardoso</h1>
+							<div class="content-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/pbrfr0cU2m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="content-termo-personagens">
+								<div>
+									<strong>Resumo Biográfico:</strong>
+									<br>Presidente da República Federativa do Brasil (1995-2003).
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Conteúdo lateral -->
+					<div class="col-md-3">
+						<div class="content-side">
+							<div class="content-figura-personagens">
+								<img class="figura-content-personagens" src="../../static/fhc.jpg" alt="HTML">
+							</div>
+							<h1 class="content-title">Resumo Biográfico</h1>
+							<div class="content-side-variant">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/9WOFQj6glJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Rodapé -->
+		<div id="footer"></div>
+
+	</div>
+    
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/scripts.js"></script>
+  </body>
+</html>
