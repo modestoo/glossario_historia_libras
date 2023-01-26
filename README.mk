@@ -1,2 +1,0 @@
-Comando para execução:
-
