@@ -5,6 +5,7 @@
 .app-container {
   min-height: calc(100vh - 127px);
   padding-bottom: 50px;
+  width: 2000px;
 }
 
 .container-header {
@@ -245,7 +246,7 @@ page-title {
 
 .footer {
   height: 127px;
-  width: 100%;
+  width: 2000px;
   bottom: 0;
   background-color: #f2f2f2;
 }
@@ -380,3 +381,4 @@ sign-search-word {
 .panel-default {
   width: 1000px;
 }
+
