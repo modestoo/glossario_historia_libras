@@ -1,6 +1,7 @@
 /* HOME */
 .app-container-home {
-  min-height: calc(100vh - 127px);
+  /* min-height: calc(100vh - 127px); */
+  width: 2000px;
 }
 
 .home {
